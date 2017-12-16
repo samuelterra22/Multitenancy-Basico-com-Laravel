@@ -25,12 +25,5 @@ class UserAccountsTableSeeder extends Seeder
 		    'password'      => bcrypt('senha123'),
 		    'account_id'    => 2
 	    ]);
-
-	    factory(UserAccount::class, 1)->create([
-		    'name'          => 'Master',
-		    'email'         => 'client2@user.com',
-		    'password'      => bcrypt('senha123'),
-		    'account_id'    => 3
-	    ]);
     }
 }
