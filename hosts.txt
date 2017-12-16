@@ -1,0 +1,4 @@
+127.0.0.1       son.laravel
+127.0.0.1       master.son.laravel
+127.0.0.1       client1.son.laravel
+127.0.0.1       client2.son.laravel
